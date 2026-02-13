@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2cc25af-d76a-4fea-a412-304c7b403aab">
+  <name>BooksService</name>
+  <synonym>
+    <key>ru</key>
+    <value>Books service</value>
+  </synonym>
+  <namespace>1.1.1.1</namespace>
+  <descriptorFileName>BooksService.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+</mdclass:WebService>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a61f7ac-1861-4d4f-a4ea-24b930bb09c0">
+  <producedTypes>
+    <objectType typeId="2d3f5098-75cf-44ff-a321-894222a80af3" valueTypeId="8df66733-7b9f-470f-8fca-b251f3775a0c"/>
+    <refType typeId="d694c539-d64a-42d0-b527-3f5dffe83543" valueTypeId="68137e22-89c9-4be3-9f11-e2849f78f100"/>
+    <selectionType typeId="21acc2a9-59b9-43ac-b1ca-a3121d4f96e8" valueTypeId="281b8c2b-88a9-42a8-9d70-b9c184e24d9c"/>
+    <listType typeId="fcbcedac-adcd-4794-b20c-092099105e30" valueTypeId="59292995-a073-4429-bb41-3f6550012e07"/>
+    <managerType typeId="71fe2a12-0677-4684-9990-5c39c1d3ca62" valueTypeId="67e024d1-889f-4d9c-865a-3f6cecf93209"/>
+  </producedTypes>
+  <name>Книги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Книги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Книги.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ed76dd10-9631-48ac-93f0-439028d04b14">
+    <name>Название</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e93e6cb-ea4f-47e7-90af-935fb4712e98">
+    <name>Издательство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издательство</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6882832-a8a0-454c-8e1b-7fdc1f0fe7e1">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

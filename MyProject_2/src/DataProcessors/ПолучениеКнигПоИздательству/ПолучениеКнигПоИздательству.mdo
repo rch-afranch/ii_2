@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af7757cb-852e-40c6-af27-adcd44116e83">
+  <producedTypes>
+    <objectType typeId="aacff6b3-6e69-4b8a-9d99-039ab08a4d0e" valueTypeId="01af1cd1-4b58-49fc-acc0-a4a6e6239e68"/>
+    <managerType typeId="3972c643-8d31-4856-86de-a7365e40e899" valueTypeId="3a43ac92-032f-4b15-8630-7e4de08d0d94"/>
+  </producedTypes>
+  <name>ПолучениеКнигПоИздательству</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение книг по издательству</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеКнигПоИздательству.Form.Форма</defaultForm>
+  <attributes uuid="25db9601-13e8-4e0a-a096-42296aa3cd87">
+    <name>Издательство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издательство</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e30ae10e-84f6-468c-a0ab-855b4afa8908">
+    <name>ТаблицаКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица книг</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5e838a21-c5c9-4068-8c5a-b10687601ad6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

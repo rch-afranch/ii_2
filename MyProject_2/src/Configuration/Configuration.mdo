@@ -38,4 +38,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Подсистема</subsystems>
+  <webServices>WebService.BooksService</webServices>
+  <catalogs>Catalog.Книги</catalogs>
+  <dataProcessors>DataProcessor.ПолучениеКнигПоИздательству</dataProcessors>
 </mdclass:Configuration>
