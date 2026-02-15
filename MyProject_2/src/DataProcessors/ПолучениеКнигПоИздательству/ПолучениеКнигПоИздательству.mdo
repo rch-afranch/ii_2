@@ -12,10 +12,10 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПолучениеКнигПоИздательству.Form.Форма</defaultForm>
   <attributes uuid="25db9601-13e8-4e0a-a096-42296aa3cd87">
-    <name>Издательство</name>
+    <name>ИздательствоИНН</name>
     <synonym>
       <key>ru</key>
-      <value>Издательство</value>
+      <value>Издательство ИНН</value>
     </synonym>
     <type>
       <types>String</types>

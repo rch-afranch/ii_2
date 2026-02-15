@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff9ad7f1-fea8-4171-8bfe-c4c757079f0f">
-  <name>MyProject_2</name>
+  <name>УправлениеПродажамиКниг</name>
   <synonym>
     <key>ru</key>
-    <value>My project 2</value>
+    <value>Управление продажами книг</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="269cbce9-55fb-41cf-bf0e-6fcdc23af56b"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="12033f4b-3f45-4318-9918-cab4a449bd59"/>

@@ -1,7 +1,7 @@
 Функция ПолучитьКнигиПоИздательству(Издательство) Экспорт
     
     АдресСервиса =
-        "http://server/Knigi/ws/BooksService.1cws?wsdl";
+        "http:/localhost/II_1_RCH/ws/BooksService.1cws?wsdl";
     
     WS = Новый WSПрокси(АдресСервиса);
     
